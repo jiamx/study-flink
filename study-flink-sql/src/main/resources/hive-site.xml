@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+
+<property>
+    <name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:mysql://kms-1.apache.com:3306/metastore?createDatabaseIfNotExist=true</value>
+  </property>
+  <property>
+    <name>javax.jdo.option.ConnectionDriverName</name>
+    <value>com.mysql.jdbc.Driver</value>
+  </property>
+ <property>
+    <name>javax.jdo.option.ConnectionUserName</name>
+    <value>root</value>
+  </property>
+  <property>
+    <name>javax.jdo.option.ConnectionPassword</name>
+    <value>123qwe</value>
+  </property>
+
+  <property>
+    <name>hive.cli.print.current.db</name>
+    <value>true</value>
+    <description>Whether to include the current database in the Hive prompt.</description>
+  </property>
+  
+  <property>
+    <name>hive.cli.print.header</name>
+    <value>true</value>
+    <description>Whether to include the current database in the Hive prompt.</description>
+  </property>
+ 
+  <property>
+    <name>hive.server2.authentication</name>
+    <value>NONE</value>
+  </property>
+  <property>
+    <name>hive.metastore.schema.verification</name>
+    <value>false</value>	
+  </property>
+ <property>
+    <name>hbase.zookeeper.quorum</name> 
+    <value>kms-2.apache.com,kms-3.apache.com,kms-4.apache.com</value>
+ </property>
+ <property>
+     <name>hive.metastore.uris</name>
+     <value>thrift://kms-1.apache.com:9083</value>
+ </property>
+ 
+ <!--配置事务支持-->
+ 
+ 
+ <!-- Client Side-->
+ <property>
+     <name>hive.support.concurrency </name>
+     <value>true</value>
+ </property>
+ 
+ <property>
+     <name>hive.enforce.bucketing </name>
+     <value>true</value>
+ </property>
+ 
+  <property>
+     <name> hive.exec.dynamic.partition.mode </name>
+     <value>nonstrict</value>
+ </property>
+ 
+ 
+  <property>
+     <name> hive.txn.manager </name>
+     <value>org.apache.hadoop.hive.ql.lockmgr.DbTxnManager</value>
+ </property>
+ 
+
+ 
+   <!-- Server Side (Metastore)-->
+   <property>
+     <name>hive.compactor.initiator.on</name>
+     <value>true</value>
+ </property>
+ 
+ <property>
+     <name> hive.compactor.worker.threads</name>
+     <value>1</value>
+ </property>
+ <!-- optimization-->
+ <!--local model-->
+ <property>
+    <name>hive.exec.mode.local.auto</name>
+    <value>true</value>
+    <description>Let Hive determine whether to run in local mode automatically</description>
+  </property>
+  
+  <property>
+    <name>hive.exec.mode.local.auto.inputbytes.max</name>
+    <value>50000000</value>
+    <description>When hive.exec.mode.local.auto is true, input bytes should less than this for local mode.</description>
+  </property>
+  
+  <property>
+    <name>hive.exec.mode.local.auto.input.files.max</name>
+    <value>5</value>
+    <description>When hive.exec.mode.local.auto is true, the number of tasks should less than this for local mode.</description>
+  </property>
+<!--允许笛卡尔积 -->
+ <property>
+    <name>hive.strict.checks.cartesian.product</name>
+    <value>false</value>
+  </property>  
+ 
+</configuration>
