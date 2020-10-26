@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/study-flink-dataset/src/main/java/transformation/WordCount.java" line="88" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8dee28d-79be-469d-9bb4-869dd72ec716" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MyPunctuatedAssigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MyTimestampsAndWatermarks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/AggregateFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/AggregateProcessWindowFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-realtime-dw/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/DataStreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/DataStreamApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-flink-kafka/src/main/java/com/jmx/kafka/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-flink-kafka/src/main/java/com/jmx/kafka/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-flink-sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-flink-sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-flink-sql/src/main/java/com/flink/sql/hiveintegration/FlinkHiveIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-flink-sql/src/main/java/com/flink/sql/hiveintegration/FlinkHiveIntegration.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/study-flink-sql/target/" />
+    <ignored path="$PROJECT_DIR$/study-flink-dataset/target/" />
+    <ignored path="$PROJECT_DIR$/study-flink-datastream/target/" />
+    <ignored path="$PROJECT_DIR$/study-flink-examples/target/" />
+    <ignored path="$PROJECT_DIR$/study-flink-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/study-realtime-dw/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="study-flink" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study-realtime-dw/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="100" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setStartFromSpecificOffsets</find>
+      <find>setStream</find>
+      <find>SocketAddress</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/UserBehavior.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MysqlSink.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MysqlSource.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MyTimestampsAndWatermarks.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MyPunctuatedAssigner.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/example/UserVisitWebEvent.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/example/MapStateUvExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/stateexample/WordCount.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/DataStreamApi.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/stateexample/ValueStateExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/stateexample/ListCheckpointedExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/stateexample/CheckpointFunctionExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/stateexample/MapStateExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/processfunction/KeyedProcessFunctionExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/processfunction/Test.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/processfunction/UserBehaviors.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/processfunction/ProcessFunctionExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/ReduceFunctionExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/AggregateFunctionExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/FoldFunctionExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/ProcessWindowFunctionExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/ReduceProcessWindowFunction.java" />
+        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/AggregateProcessWindowFunction.java" />
+        <option value="$PROJECT_DIR$/study-flink-dataset/src/main/java/transformation/ExecutionEnvironment.java" />
+        <option value="$PROJECT_DIR$/study-flink-dataset/src/main/java/transformation/WordCount.java" />
+        <option value="$PROJECT_DIR$/study-flink-dataset/src/main/java/transformation/BroadcastDemo.java" />
+        <option value="$PROJECT_DIR$/study-flink-dataset/src/main/java/transformation/BroadcastExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-dataset/src/main/java/transformation/DistributeCacheExample.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/enums/CodeEnum.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/function/DataHubProcessFunction.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/deserializeschema/FlatMessageSchema.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/simulatordata/GoodsSimulator.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/utils/JdbcUtil.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/config/GlobalConfig.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/function/DbusProcessFunction.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/hbasesink/HbaseSyncService.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/hbasesink/HbaseSyncSink.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/incrementalsync/IncrementSyncApp.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/model/Flow.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/source/FlowSoure.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/Test.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/CanalCliExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-sql/src/main/java/com/flink/sql/hiveintegration/StreamSQLExample.java" />
+        <option value="$PROJECT_DIR$/study-flink-sql/src/main/java/com/flink/sql/hiveintegration/FlinkHiveIntegration.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/FlinkSQLCDC.java" />
+        <option value="$PROJECT_DIR$/study-flink-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/study-flink-kafka/src/main/java/com/jmx/kafka/Consumer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/JedisConnPool.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/TestRedisConn.java" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study-flink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study-flink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-flink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="study-realtime-dw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="study-realtime-dw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="study-realtime-dw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="study-realtime-dw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="study-realtime-dw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jmx" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\study-flink\study-realtime-dw\src\main\java\com\jmx\dw\function" />
+      <recent name="E:\IdeaProjects\study-flink\study-realtime-dw\src\main\java\com\jmx\dw\utils" />
+      <recent name="E:\IdeaProjects\study-flink\study-realtime-dw\src\main\java\com\jmx\dw\source" />
+      <recent name="E:\IdeaProjects\study-flink\study-realtime-dw\src\main\java\com\jmx\dw\hbasesink" />
+      <recent name="E:\IdeaProjects\study-flink\study-realtime-dw\src\main\java\com\jmx\dw\simulatordata" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jmx.api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestRedisConn">
+    <configuration name="CanalCliExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmx.realtimedw.CanalCliExample" />
+      <module name="study-realtime-dw" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jmx.realtimedw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmx.kafka.Consumer" />
+      <module name="study-flink-kafka" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jmx.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FlinkSQLCDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmx.realtimedw.FlinkSQLCDC" />
+      <module name="study-realtime-dw" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jmx.realtimedw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StreamSQLExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flink.sql.hiveintegration.StreamSQLExample" />
+      <module name="study-flink-sql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flink.sql.hiveintegration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestRedisConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmx.realtimedw.TestRedisConn" />
+      <module name="study-realtime-dw" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jmx.realtimedw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.CanalCliExample" />
+      <item itemvalue="Application.FlinkSQLCDC" />
+      <item itemvalue="Application.StreamSQLExample" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.TestRedisConn" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestRedisConn" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.FlinkSQLCDC" />
+        <item itemvalue="Application.StreamSQLExample" />
+        <item itemvalue="Application.CanalCliExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\istma\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8dee28d-79be-469d-9bb4-869dd72ec716" name="Default" comment="" />
+      <created>1585625865274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585625865274</updated>
+      <workItem from="1585625870368" duration="18085000" />
+      <workItem from="1585660393013" duration="4681000" />
+      <workItem from="1585704339801" duration="7922000" />
+      <workItem from="1585736842373" duration="701000" />
+      <workItem from="1585794061307" duration="10389000" />
+      <workItem from="1585836874145" duration="851000" />
+      <workItem from="1585877600433" duration="6234000" />
+      <workItem from="1585916608164" duration="1271000" />
+      <workItem from="1586076076599" duration="13543000" />
+      <workItem from="1586151342095" duration="3312000" />
+      <workItem from="1586696470826" duration="596000" />
+      <workItem from="1586742253558" duration="1201000" />
+      <workItem from="1586831729907" duration="4973000" />
+      <workItem from="1586840183968" duration="113000" />
+      <workItem from="1586840351837" duration="153000" />
+      <workItem from="1586840569461" duration="161000" />
+      <workItem from="1586840768309" duration="82000" />
+      <workItem from="1586840884581" duration="113000" />
+      <workItem from="1586841032363" duration="1212000" />
+      <workItem from="1586850751549" duration="93000" />
+      <workItem from="1586850883085" duration="148000" />
+      <workItem from="1586851093926" duration="191000" />
+      <workItem from="1586851517011" duration="7322000" />
+      <workItem from="1586870804006" duration="5337000" />
+      <workItem from="1586914728836" duration="10484000" />
+      <workItem from="1586956224606" duration="6338000" />
+      <workItem from="1587000277503" duration="6106000" />
+      <workItem from="1587041982514" duration="7242000" />
+      <workItem from="1587086967822" duration="2780000" />
+      <workItem from="1587189078710" duration="3315000" />
+      <workItem from="1587265004081" duration="10552000" />
+      <workItem from="1587299999125" duration="4854000" />
+      <workItem from="1587617547904" duration="2930000" />
+      <workItem from="1587807860435" duration="4562000" />
+      <workItem from="1587865790680" duration="9308000" />
+      <workItem from="1587952808696" duration="5209000" />
+      <workItem from="1587999170535" duration="636000" />
+      <workItem from="1588037967381" duration="13759000" />
+      <workItem from="1588489938226" duration="11698000" />
+      <workItem from="1588569824597" duration="18294000" />
+      <workItem from="1588753244015" duration="7969000" />
+      <workItem from="1588770977471" duration="3583000" />
+      <workItem from="1588819647369" duration="3089000" />
+      <workItem from="1588991343941" duration="6872000" />
+      <workItem from="1589174621904" duration="12889000" />
+      <workItem from="1589203427870" duration="3757000" />
+      <workItem from="1589251911634" duration="12894000" />
+      <workItem from="1589349546495" duration="4168000" />
+      <workItem from="1589695941230" duration="3996000" />
+      <workItem from="1589708335354" duration="2788000" />
+      <workItem from="1590396330472" duration="1273000" />
+      <workItem from="1590477878831" duration="3186000" />
+      <workItem from="1590631954990" duration="1193000" />
+      <workItem from="1592962737528" duration="818000" />
+      <workItem from="1593409479306" duration="14610000" />
+      <workItem from="1593437613575" duration="640000" />
+      <workItem from="1593487562428" duration="222000" />
+      <workItem from="1593505203227" duration="5951000" />
+      <workItem from="1597138473984" duration="3154000" />
+      <workItem from="1597224373815" duration="4264000" />
+      <workItem from="1597234557819" duration="1194000" />
+      <workItem from="1597282343500" duration="54000" />
+      <workItem from="1597813505698" duration="2455000" />
+      <workItem from="1597886774531" duration="2625000" />
+      <workItem from="1598344814847" duration="2624000" />
+      <workItem from="1598405611393" duration="3526000" />
+      <workItem from="1598492170029" duration="37000" />
+      <workItem from="1603613776148" duration="2184000" />
+      <workItem from="1603680927854" duration="1873000" />
+    </task>
+    <task id="LOCAL-00001" summary="增加测试数据集">
+      <created>1587087480379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587087480379</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加测试数据集">
+      <created>1587087700515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587087700515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="320639000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="bottom" auto_hide="true" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.25287357" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41067097" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info id="Structure" order="1" sideWeight="0.14412811" side_tool="true" weight="0.28940988" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.55590385" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.41304347" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.47826087" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.371875" weight="0.52978057" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8558719" visible="true" weight="0.19402985" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" sideWeight="0.46081504" side_tool="true" weight="0.3001066" />
+      <window_info anchor="bottom" id="SVN Repositories" order="12" weight="0.3291536" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.14211076" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.15886287" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="0" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.06020067" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="5" sideWeight="0.46081504" side_tool="true" weight="0.3001066" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.371875" weight="0.52978057" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" auto_hide="true" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.057971016" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="0" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.41304347" />
+      <window_info anchor="bottom" id="SVN Repositories" order="13" weight="0.3291536" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41067097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8558719" visible="true" weight="0.28940988" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.14211076" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="1" sideWeight="0.14412811" side_tool="true" visible="true" weight="0.28940988" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.15886287" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.55590385" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加测试数据集" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加测试数据集" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.10.0/flink-streaming-java_2.11-1.10.0-sources.jar!/org/apache/flink/streaming/api/functions/AssignerWithPeriodicWatermarks.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/hbasesink/HbaseTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/hbasesink/HRow.java" />
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/model/Flow.java" />
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/source/FlowSoure.java" />
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/incrementalsync/IncrementSyncApp.java" />
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/hbasesink/HbaseSyncService.java" />
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/deserializeschema/FlatMessageSchema.java" />
+    <entry file="jar://C:/mysoftwares/Java/jdk1.8.0_151/src.zip!/java/net/SocketAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2.jar!/com/alibaba/otter/canal/client/CanalConnectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="93" selection-start-line="19" selection-start-column="82" selection-end-line="20" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2-sources.jar!/com/alibaba/otter/canal/client/CanalConnectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/dw/simulatordata/OrdersSimulator.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2.jar!/com/alibaba/otter/canal/common/utils/AddressUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/mysoftwares/Java/jdk1.8.0_151/src.zip!/java/net/InetSocketAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2-sources.jar!/com/alibaba/otter/canal/client/kafka/KafkaCanalConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2965">
+          <caret line="122" column="74" lean-forward="true" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2-sources.jar!/com/alibaba/otter/canal/client/CanalConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2926">
+          <caret line="136" column="9" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2-sources.jar!/com/alibaba/otter/canal/client/impl/SimpleCanalConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5588">
+          <caret line="293" column="13" selection-start-line="284" selection-start-column="23" selection-end-line="293" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-dataset/src/main/java/transformation/BroadcastDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="73" column="39" selection-start-line="61" selection-start-column="7" selection-end-line="73" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2.jar!/com/alibaba/otter/canal/protocol/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="5" selection-start-line="17" selection-start-column="20" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2.jar!/com/alibaba/otter/canal/protocol/CanalEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="7719" column="42" selection-start-line="7719" selection-start-column="42" selection-end-line="7719" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-dataset/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.10.0/flink-table-api-java-1.10.0-sources.jar!/org/apache/flink/table/api/StreamQueryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java-bridge_2.11/1.10.0/flink-table-api-java-bridge_2.11-1.10.0-sources.jar!/org/apache/flink/table/api/java/StreamTableEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11066">
+          <caret line="537" column="30" selection-start-line="537" selection-start-column="9" selection-end-line="537" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.10.0/flink-table-api-java-1.10.0-sources.jar!/org/apache/flink/table/api/TableEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10032">
+          <caret line="486" column="10" selection-start-line="486" selection-start-column="10" selection-end-line="486" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.11.0/flink-table-api-java-1.11.0.jar!/org/apache/flink/table/api/Table.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1892">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.11.0/flink-table-api-java-1.11.0.jar!/org/apache/flink/table/api/TableEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2939">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.11.0/flink-streaming-java_2.11-1.11.0.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/window/AggregateFunctionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MysqlSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-datastream/src/main/resources/数据集说明.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-datastream/src/main/resources/user_behavior_log.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.11.0/flink-streaming-java_2.11-1.11.0-sources.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MysqlSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-datastream/src/main/resources/mysql.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-sql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-sql/src/main/java/com/flink/sql/hiveintegration/StreamSQLExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/connector/KafkaConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-sql/src/main/java/com/flink/sql/hiveintegration/FlinkHiveIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-datastream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-kafka/src/main/java/com/jmx/kafka/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-flink-kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/FlinkSQLCDC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/CanalCliExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="64" column="118" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-2.8.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-2.8.0.jar!/redis/clients/jedis/BinaryJedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17182">
+          <caret line="826" column="18" selection-start-line="826" selection-start-column="18" selection-end-line="826" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-2.8.0.jar!/redis/clients/jedis/JedisPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-2.8.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/JedisConnPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/TestRedisConn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-realtime-dw/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="100" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>R Skeletons</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>study-flink-dataset</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

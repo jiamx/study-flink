@@ -1,16 +1,19 @@
+/*
 package com.flink.sql.hiveintegration;
 
 import org.apache.flink.table.api.EnvironmentSettings;
 import org.apache.flink.table.api.TableEnvironment;
 import org.apache.flink.table.catalog.hive.HiveCatalog;
 
+*/
 /**
  *  @Created with IntelliJ IDEA.
  *  @author : jmx
  *  @Date: 2020/3/31
  *  @Time: 13:22
  *  
- */
+ *//*
+
 public class FlinkHiveIntegration {
 
     public static void main(String[] args) throws Exception {
@@ -22,11 +25,13 @@ public class FlinkHiveIntegration {
                 .build();
 
         //使用StreamingMode
-       /* EnvironmentSettings settings = EnvironmentSettings
+       */
+/* EnvironmentSettings settings = EnvironmentSettings
                 .newInstance()
                 .useBlinkPlanner() // 使用BlinkPlanner
                 .inStreamingMode() // StreamingMode
-                .build();*/
+                .build();*//*
+
 
         TableEnvironment tableEnv = TableEnvironment.create(settings);
 
@@ -48,3 +53,4 @@ public class FlinkHiveIntegration {
     }
 
 }
+*/

@@ -4,17 +4,20 @@ import org.apache.flink.api.common.functions.RichFilterFunction;
 import org.apache.flink.api.common.functions.RichFlatMapFunction;
 import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.api.common.functions.RichReduceFunction;
+import org.apache.flink.api.java.tuple.Tuple;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.collector.selector.OutputSelector;
-import org.apache.flink.streaming.api.datastream.ConnectedStreams;
-import org.apache.flink.streaming.api.datastream.DataStreamSource;
-import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
-import org.apache.flink.streaming.api.datastream.SplitStream;
+import org.apache.flink.streaming.api.datastream.*;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.co.CoMapFunction;
 import org.apache.flink.streaming.api.functions.co.RichCoMapFunction;
+import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor;
+import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor;
+import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.util.Collector;
+import org.apache.flink.util.OutputTag;
 
 import java.util.ArrayList;
 
@@ -31,9 +34,28 @@ public class DataStreamApi {
 
     public static void main(String[] args) throws Exception {
 
-        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment().setParallelism(1);
+        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+        env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
-        DataStreamSource<UserBehavior> userBehavior = env.addSource(new MysqlSource());
+     /*   SingleOutputStreamOperator<UserBehavior> userBehavior1 = env
+                .addSource(new MysqlSource())
+                .assignTimestampsAndWatermarks(new AscendingTimestampExtractor<UserBehavior>() {
+                    @Override
+                    public long extractAscendingTimestamp(UserBehavior element) {
+                        return element.timestamp*1000;
+                    }
+                });*/
+
+        SingleOutputStreamOperator<UserBehavior> userBehavior = env
+                .addSource(new MysqlSource())
+                .assignTimestampsAndWatermarks(new BoundedOutOfOrdernessTimestampExtractor<UserBehavior>(Time.seconds(10)) {
+                    @Override
+                    public long extractTimestamp(UserBehavior element) {
+                        return element.timestamp*1000;
+                    }
+                } );
+
+        //env.getConfig().setAutoWatermarkInterval(300);
 
 
         /**
@@ -104,8 +126,10 @@ public class DataStreamApi {
                 return Tuple2.of(value.action.toString(), 1);
             }
         }).keyBy(0) // scala元组编号从1开始，java元组编号是从0开始
-           .sum(1); //滚动聚合
+               .sum(1); //滚动聚合
         //userBehaviorkeyBy.print();
+
+
 
 
         /**
@@ -120,12 +144,12 @@ public class DataStreamApi {
                 return Tuple2.of(value.action.toString(), 1);
             }
         }).keyBy(0) // scala元组编号从1开始，java元组编号是从0开始
-          .reduce(new RichReduceFunction<Tuple2<String, Integer>>() {
-              @Override
-              public Tuple2<String, Integer> reduce(Tuple2<String, Integer> value1, Tuple2<String, Integer> value2) throws Exception {
-                  return Tuple2.of(value1.f0,value1.f1 + value2.f1);//滚动聚合,功能与sum类似
-              }
-          });
+                .reduce(new RichReduceFunction<Tuple2<String, Integer>>() {
+                    @Override
+                    public Tuple2<String, Integer> reduce(Tuple2<String, Integer> value1, Tuple2<String, Integer> value2) throws Exception {
+                        return Tuple2.of(value1.f0, value1.f1 + value2.f1);//滚动聚合,功能与sum类似
+                    }
+                });
         //userBehaviorReduce.print();
 
         /**
