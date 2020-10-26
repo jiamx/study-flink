@@ -8,4 +8,8 @@ package com.jmx.clickhouse;
  *  
  */
 public class FlinkSinkClickHouse {
+
+    public static void main(String[] args) {
+
+    }
 }
