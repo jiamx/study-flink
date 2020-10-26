@@ -53,8 +53,8 @@
       <file leaf-file-name="FlinkSinkClickHouse.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/clickhouse/FlinkSinkClickHouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -81,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/UserBehavior.java" />
         <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MysqlSink.java" />
         <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MysqlSource.java" />
         <option value="$PROJECT_DIR$/study-flink-datastream/src/main/java/com/jmx/api/MyTimestampsAndWatermarks.java" />
@@ -132,6 +131,7 @@
         <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/JedisConnPool.java" />
         <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/realtimedw/TestRedisConn.java" />
         <option value="$PROJECT_DIR$/study-realtime-dw/pom.xml" />
+        <option value="$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/clickhouse/FlinkSinkClickHouse.java" />
       </list>
     </option>
   </component>
@@ -167,7 +167,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2389" />
     <option name="y" value="376" />
     <option name="width" value="1296" />
@@ -468,7 +468,7 @@
       <workItem from="1598405611393" duration="3526000" />
       <workItem from="1598492170029" duration="37000" />
       <workItem from="1603613776148" duration="2184000" />
-      <workItem from="1603680927854" duration="3144000" />
+      <workItem from="1603680927854" duration="4805000" />
     </task>
     <task id="LOCAL-00001" summary="增加测试数据集">
       <created>1587087480379</created>
@@ -488,10 +488,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321910000" />
+    <option name="totallyTimeSpent" value="323571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" auto_hide="true" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.25287357" />
@@ -513,7 +513,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.41304347" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.47826087" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.371875" visible="true" weight="0.52978057" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.371875" visible="true" weight="0.38557994" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8558719" visible="true" weight="0.19402985" />
       <window_info anchor="right" id="Bean Validation" order="12" />
       <window_info anchor="right" id="R Packages" order="6" />
@@ -902,8 +902,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/study-realtime-dw/src/main/java/com/jmx/clickhouse/FlinkSinkClickHouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
